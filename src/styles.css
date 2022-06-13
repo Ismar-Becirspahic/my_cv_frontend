@@ -7,7 +7,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: black;
+  background: white;
 }
 
 body::-webkit-scrollbar-thumb {
