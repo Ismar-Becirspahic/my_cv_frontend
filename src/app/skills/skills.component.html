@@ -1,1 +1,10 @@
-<p>skills works!</p>
+<div *ngFor="let skillsModel of skillsModels">
+  <mat-card class="full-width" appearance="outline">
+    <h2>Programming language</h2>
+    <h3>{{skillsModel.programming_language_name}}</h3>
+  </mat-card>
+  <mat-card class="full-width" appearance="outline">
+    <h2>Year when I started</h2>
+    <h3>{{skillsModel.programming_language_start_year}}</h3>
+  </mat-card>
+</div>

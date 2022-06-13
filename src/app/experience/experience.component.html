@@ -1,1 +1,22 @@
-<p>experience works!</p>
+<div class="around" *ngFor="let experienceModel of experienceModels">
+  <mat-card class="full-width" appearance="outline">
+    <h2>Name of project</h2>
+    <h3>{{experienceModel.project_name}}</h3>
+  </mat-card>
+  <mat-card class="full-width" appearance="outline">
+    <h2>Project start date</h2>
+    <h3>{{experienceModel.start_date}}</h3>
+  </mat-card>
+  <mat-card class="full-width" appearance="outline">
+    <h2>Project end date</h2>
+    <h3>{{experienceModel.end_date}}</h3>
+  </mat-card>
+  <mat-card class="full-width" appearance="outline">
+    <h2>Description</h2>
+    <h3>{{experienceModel.description}}</h3>
+  </mat-card>
+  <mat-card class="full-width" appearance="outline">
+    <h2>Purpose</h2>
+    <h3>{{experienceModel.purpose}}</h3>
+  </mat-card>
+</div>

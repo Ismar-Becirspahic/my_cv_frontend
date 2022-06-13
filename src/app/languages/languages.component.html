@@ -1,1 +1,7 @@
-<p>languages works!</p>
+<div *ngFor="let language of languages">
+  <mat-card class="full-width" appearance="outline">
+    <h2>Language</h2>
+    <h3>{{language.language}}</h3>
+  </mat-card>
+</div>
+

@@ -1,1 +1,10 @@
-<p>hobbies works!</p>
+<div *ngFor="let hobbiesModel of hobbiesModels">
+  <mat-card class="full-width" appearance="outline">
+    <h2>Hobby</h2>
+    <h3>{{hobbiesModel.hobbies}}</h3>
+  </mat-card>
+  <mat-card class="full-width" appearance="outline">
+    <h2>Description</h2>
+    <h3>{{hobbiesModel.description}}</h3>
+  </mat-card>
+</div>

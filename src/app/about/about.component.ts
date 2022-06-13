@@ -24,7 +24,7 @@ export class AboutComponent implements OnInit {
     });
     this.form = this.formBuilder.group({
       first_name: [this.aboutx?.first_name || '', Validators.required],
-      email: [this.aboutx?.email || '', Validators.required],
+      email: [this.aboutx?.email || '', [Validators.required,Validators.email]],
       numberOfProjectsCompleted: [this.aboutx?.numberOfProjectsCompleted || '', Validators.required],
       yearsOfExperience: [this.aboutx?.yearsOfExperience || '', Validators.required],
       last_name: [this.aboutx?.last_name || '', Validators.required],

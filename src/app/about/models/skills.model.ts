@@ -1,8 +1,5 @@
 export interface SkillsModel {
   id: string;
-  username: string;
-  firstName: string;
-  lastName: string;
-  email: string;
-  password: string;
+  programming_language_name:string;
+  programming_language_start_year:number;
 }

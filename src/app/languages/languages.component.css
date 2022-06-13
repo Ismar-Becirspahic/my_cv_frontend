@@ -1,0 +1,29 @@
+div{
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 31%;
+  margin-right: 23%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+mat-card{
+  margin-bottom: 11px;
+  margin-top: 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(20px);
+}
+mat-form-field{
+  width: 100%;
+}
+.button {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(20px);
+  color: white;
+}
+input{
+  font-size: 18px;
+}

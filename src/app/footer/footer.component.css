@@ -1,1 +1,17 @@
-
+i{
+  color: white;
+  margin-right: 20px;
+}
+mat-toolbar-row{
+  display: flex;
+  justify-content: space-between;
+}
+div{
+  justify-content: center;
+}
+i:hover{
+  cursor: pointer;
+}
+mat-icon:hover{
+  cursor: pointer;
+}

@@ -5,8 +5,8 @@ div{
   margin: 2em auto;
 }
 mat-card{
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(20px);
 }
@@ -27,4 +27,12 @@ margin-top: 0px;
 }
 .mat-card-title{
   color: white;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(20px);
+  border-radius: 5px;
+}
+button:disabled,
+button[disabled]{
+  border: 1px solid rgba(0,0,0,0.5);
 }

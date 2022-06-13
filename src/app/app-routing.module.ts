@@ -12,6 +12,11 @@ import {PageInvalidComponent} from "./page-invalid/page-invalid.component";
 import {SkillsComponent} from "./skills/skills.component";
 import {About_resolver} from "./resolvers/about_resolver";
 import {App_response} from "./routing/app_response";
+import {Languages_resolver} from "./resolvers/languages_resolver";
+import {Education_resolver} from "./resolvers/education_resolver";
+import {Experience_resolver} from "./resolvers/experience_resolver";
+import {Hobbies_resolver} from "./resolvers/hobbies_resolver";
+import {Skills_resolver} from "./resolvers/skills_resolver";
 
 const routes: Routes = [
 
@@ -24,15 +29,35 @@ const routes: Routes = [
         },
   },
   { path: Route.EDUCATION,
-        component: EducationComponent },
+        component: EducationComponent,
+    resolve:{
+      [App_response.EDUCATION]: Education_resolver,
+    },
+  },
   { path: Route.EXPERIENCE,
-        component: ExperienceComponent},
+        component: ExperienceComponent,
+    resolve:{
+      [App_response.EXPERIENCE]: Experience_resolver,
+    },
+  },
   { path: Route.LANGUAGES,
-        component: LanguagesComponent},
+        component: LanguagesComponent,
+  resolve:{
+    [App_response.LANGUAGES]:Languages_resolver,
+  }
+  },
   { path: Route.HOBBIES,
-        component: HobbiesComponent},
+        component: HobbiesComponent,
+    resolve:{
+      [App_response.HOBBIES]: Hobbies_resolver,
+    },
+  },
   { path: Route.SKILLS,
-        component: SkillsComponent},
+        component: SkillsComponent,
+    resolve:{
+      [App_response.SKILLS]: Skills_resolver,
+    },
+  },
   { path: '**',
     component: PageInvalidComponent },
 ];
