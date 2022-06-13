@@ -1,0 +1,85 @@
+.card {
+  width: 300px;
+  height: 280px;
+  padding: 0;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+  border-radius: 8px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.card * {
+  transition: 0.4s ease all;
+}
+
+.card img {
+  margin: 0;
+  width: 300px;
+  height: 224px;
+  object-fit: cover;
+  display: block;
+}
+
+.card h3 {
+  margin: 0;
+  padding: 12px 12px 48px;
+  line-height: 32px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.card .focus-content {
+  display: block;
+  padding: 10px 12px;
+}
+
+.card p {
+  margin: 0;
+  line-height: 1.5;
+}
+button{
+  margin-top: 15px;
+}
+
+.card:hover img, .card:focus-within img {
+  margin-left: -160px;
+  background-color: #7b1fa1;
+}
+.card:hover, .card:focus-within{
+  height: 224px;
+}
+
+.card:hover h3, .card:focus-within h3 {
+  padding: 8px 12px 0;
+  margin-left: 160px;
+  margin-top: -205px;
+  background-color: #7b1fa1;
+}
+.card:hover .focus-content, .card:focus-within .focus-content{
+  margin-left: 160px;
+  margin-top: -2px;
+}
+p, button{
+  background-color: #7b1fa1;
+}
+.focus-content{
+  background-color: #7b1fa1;
+}
+.body div:hover, .body div:focus-within {
+  background-color: #7b1fa1;
+}
+.body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.body div{
+  color: #ffffff;
+  margin-top: 2.6%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 2.7%;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
