@@ -1,0 +1,25 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+mat-toolbar-row{
+  color: white;
+}
+span{
+  cursor: pointer;
+}
+@media (max-width: 700px){
+  .mat-toolbar-row, .mat-toolbar-single-row{
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    justify-content: center;
+  }
+  span{
+    margin-right: 100%;
+    margin-left: 100%;
+    margin-top: 10%;
+    align-items: center;
+  }
+
+}

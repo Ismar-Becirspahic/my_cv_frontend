@@ -1,7 +1,7 @@
 import {Injectable} from "@angular/core";
 import {ActivatedRouteSnapshot, Resolve, RouterStateSnapshot} from "@angular/router";
 import {Observable} from 'rxjs';
-import {LanguagesModel} from "../about/models/languages.model";
+import {LanguagesModel} from "../models/languages.model";
 import {LanguagesService} from "../services/languages.service";
 
 

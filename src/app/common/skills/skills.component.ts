@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {FormGroup} from "@angular/forms";
 import {ActivatedRoute} from "@angular/router";
-import {App_response} from "../routing/app_response";
-import {SkillsModel} from "../about/models/skills.model";
+import {App_response} from "../../routing/app_response";
+import {SkillsModel} from "../../models/skills.model";
 @Component({
   selector: 'app-skills',
   templateUrl: './skills.component.html',

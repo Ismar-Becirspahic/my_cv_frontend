@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import {App_response} from "../routing/app_response";
-import {AboutModel} from "../about/models/about.model";
+import {App_response} from "../../routing/app_response";
+import {AboutModel} from "../../models/about.model";
 import {FormBuilder, FormGroup} from "@angular/forms";
-import {AboutService} from "../services/about.service";
+import {AboutService} from "../../services/about.service";
 import {ActivatedRoute} from "@angular/router";
-import {LanguagesModel} from "../about/models/languages.model";
-import {LanguagesService} from "../services/languages.service";
+import {LanguagesModel} from "../../models/languages.model";
+import {LanguagesService} from "../../services/languages.service";
 
 @Component({
   selector: 'app-languages',

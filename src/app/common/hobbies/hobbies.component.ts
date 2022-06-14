@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import {ExperienceModel} from "../about/models/experience.model";
+import {ExperienceModel} from "../../models/experience.model";
 import {FormGroup} from "@angular/forms";
-import {ExperienceService} from "../services/experience.service";
+import {ExperienceService} from "../../services/experience.service";
 import {ActivatedRoute} from "@angular/router";
-import {App_response} from "../routing/app_response";
-import {HobbiesModel} from "../about/models/hobbies.model";
-import {HobbiesService} from "../services/hobbies.service";
+import {App_response} from "../../routing/app_response";
+import {HobbiesModel} from "../../models/hobbies.model";
+import {HobbiesService} from "../../services/hobbies.service";
 
 @Component({
   selector: 'app-hobbies',

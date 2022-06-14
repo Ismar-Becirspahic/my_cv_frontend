@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import {EducationModel} from "../about/models/education.model";
+import {EducationModel} from "../../models/education.model";
 import {FormGroup} from "@angular/forms";
-import {AboutService} from "../services/about.service";
+import {AboutService} from "../../services/about.service";
 import {ActivatedRoute} from "@angular/router";
-import {App_response} from "../routing/app_response";
-import {ExperienceModel} from "../about/models/experience.model";
-import {ExperienceService} from "../services/experience.service";
+import {App_response} from "../../routing/app_response";
+import {ExperienceModel} from "../../models/experience.model";
+import {ExperienceService} from "../../services/experience.service";
 
 @Component({
   selector: 'app-experience',

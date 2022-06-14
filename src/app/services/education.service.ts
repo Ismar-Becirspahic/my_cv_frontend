@@ -2,9 +2,9 @@ import { Injectable } from '@angular/core';
 import {environment} from "../../environments/environment";
 import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs";
-import {LanguagesModel} from "../about/models/languages.model";
-import {ExperienceModel} from "../about/models/experience.model";
-import {EducationModel} from "../about/models/education.model";
+import {LanguagesModel} from "../models/languages.model";
+import {ExperienceModel} from "../models/experience.model";
+import {EducationModel} from "../models/education.model";
 
 @Injectable({
   providedIn: 'root'
