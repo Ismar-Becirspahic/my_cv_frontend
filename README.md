@@ -1,6 +1,6 @@
 # MyCv
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
+This project was created for the Software Engineering course. The main goal of the project was to provide my CV to the visitors of the page. The visitors are able to see all the necessary information within a CV.
 
 ## Technologies
 Npm 8.5.0
