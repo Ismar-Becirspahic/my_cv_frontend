@@ -4,7 +4,9 @@ This project was created for the Software Engineering course. The main goal of t
 
 ## Technologies
 Npm 8.5.0
+
 NodeJs 16.14.2
+
 Angular CLI 13.2.5
 ## Necessary installation
 A development environment (Intellij)
